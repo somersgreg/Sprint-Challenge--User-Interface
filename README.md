@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+        There are semantic HTML elements.  They are standardized elements that convey meaning to a reader of the code as well as being functionally understood by the user agent reading them.  Examples would be ```<header>, <footer>``` ```<p>``` for instance represents a paragraph enclosure and pretty much everyone knows what a paragraph is so its semantic and presentational. Semantic HTML was part of initial design way back around the paleolithic era by Tim Berners-Lee in 1990.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+        ```display: inline``` doesnt allow setting ```width``` and ```height```. They will be ignored if included in css.  They will flop right in line with a paragraph text for instance if used in a ```<span>```.  ```display: block``` respects height, width and inserts breaks after elements so they will stack not be next to each other.  ```display: inline-block``` does all without breaks.
 
 3. What are the 4 areas of the box model?
 
+        The four parts of the box model are defined by thier edges. 1. the content edge surrounds the actual content be it an image or video or text. 2. in order is the padding edge. 3. the border. 4. the margin.  Each has differences in capabilities like you can create an under or over line on a word by using ```border-top``` or ```border-bottom``` on a <span>.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+        It works on the cross axis.  ```align-items: center```will center text in the verticle middle in a horizontal line by default.  It differs from ```align-items: stretch``` in that it is also centered on this axis but will stretch vertical margins to top-bottom extremes.
+
 5. Explain why git is valuable to a team of developers.
+
+        Git allows for version saving at all commit points and allows for merge decisions to be made at any point after. It allows for many people to work on different or even the same sections of a project or file without conflict.  
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
