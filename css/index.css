@@ -196,16 +196,21 @@ nav a {
 }
 
 /* About Page */
+#about {
+    padding: 20px;
+    border-bottom: dotted gray;
+}
 
 .about-parts{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    /* padding-right: 10%; */
+    margin-top: 10px;
 }
 .about-parts div {
     width: 50%;
-    border-bottom: dotted;
+    border-bottom: dotted grey;
+    margin-top: 20px;
 }
 
 button {
