@@ -88,15 +88,24 @@ header div {
 header div nav {
     display: flex;
     /* maybe this is pushing it out more. change later */
-	justify-content: space-between;
+    justify-content: space-between;
+    /* align-items: flex-end; */
+    
 }
 nav a {
     display: flex;
     /* not sure this is helping */
-    align-items: center;
+    /* align-items: center; */
     color: black;
     padding: 1%;
 }
+.decoration {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+/* Header Ends */
 
 .top-content {
     display: flex;
