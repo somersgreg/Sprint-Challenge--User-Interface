@@ -74,13 +74,15 @@ p {
 /* My work begins     */
 /* Adding style to the Nav     */
 
+
+
 header{
     display: flex;
     /* this isnt working. Need it to move over left more */
     /* around is no good. evenly better. maybe can move in div or nav */
 	justify-content: space-evenly;
 	align-items: center;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 header div {
     width: 100%;
