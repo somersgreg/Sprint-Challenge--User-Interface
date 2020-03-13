@@ -195,15 +195,32 @@ nav a {
     padding-right: 0;
 }
 
-.sections{
+/* About Page */
+
+.about-parts{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    padding-right: 10%;
+    /* padding-right: 10%; */
 }
-.sections div {
-    width: 40%;
+.about-parts div {
+    width: 50%;
+    border-bottom: dotted;
 }
+
+button {
+    padding: 10px;
+    width:50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#bcomment{
+    margin-top: 40px;
+}
+
 
 footer {
     width: 100%;
@@ -217,6 +234,7 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin-top: 30px;
 }
 
 footer nav a {
