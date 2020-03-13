@@ -195,6 +195,16 @@ nav a {
     padding-right: 0;
 }
 
+.sections{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-right: 10%;
+}
+.sections div {
+    width: 40%;
+}
+
 footer {
     width: 100%;
     background: black;
