@@ -71,6 +71,33 @@ p {
     margin: 0 auto;
 }
 
+/* My work begins     */
+/* Adding style to the Nav     */
+
+header{
+    display: flex;
+    /* this isnt working. Need it to move over left more */
+    /* around is no good. evenly better. maybe can move in div or nav */
+	justify-content: space-evenly;
+	align-items: center;
+	margin-bottom: 30px;
+}
+header div {
+    width: 100%;
+}    
+header div nav {
+    display: flex;
+    /* maybe this is pushing it out more. change later */
+	justify-content: space-between;
+}
+nav a {
+    display: flex;
+    /* not sure this is helping */
+    align-items: center;
+    color: black;
+    padding: 1%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
